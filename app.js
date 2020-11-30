@@ -5,4 +5,8 @@ const PORT = 3000;
 
 app.use(express.json());
 
-app.listen(PORT, () => console.log(`Express server currently running on port ${PORT}`));press
+app.listen(PORT, () => console.log(`Express server currently running on port ${PORT}`));
+
+app.get('/', (request, response) => {
+    response.send('index.html');
+  });
