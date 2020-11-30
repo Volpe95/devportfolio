@@ -5,7 +5,6 @@
   "main": "js/scripts.js",
   "scripts": {
     "watch": "gulp watch"
-    //"start": "node app.js"
   },
   "keywords": [
     "portfolio",
